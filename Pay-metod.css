@@ -1,12 +1,12 @@
 /* RESET DE ESTILOS Y CORRECCIÓN DE DESBORDAMIENTO */
 * {
-    box-sizing: border-box; /* Esto hace que el padding no estire los cuadros */
+    box-sizing: border-box; 
     margin: 0;
     padding: 0;
 }
 
 body {
-    background-color: #121212; /* Un tono un poco más oscuro para resaltar la tarjeta */
+    background-color: #121212; 
     color: white;
     font-family: 'Segoe UI', Arial, sans-serif;
     display: flex;
@@ -21,7 +21,7 @@ body {
     border-radius: 20px;
     box-shadow: 0 15px 35px rgba(0,0,0,0.7);
     width: 100%;
-    max-width: 420px; /* Tamaño ideal para la tarjeta */
+    max-width: 420px; 
 }
 
 .link-back {
@@ -51,12 +51,12 @@ h2 {
 
 .input-row {
     display: flex;
-    gap: 20px; /* Espacio entre Expiración y CVV */
+    gap: 20px; 
     margin-bottom: 25px;
 }
 
 .input-group-half {
-    flex: 1; /* Divide el espacio exactamente a la mitad */
+    flex: 1; 
 }
 
 label {
