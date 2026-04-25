@@ -55,7 +55,7 @@
         const expInput = document.querySelector('input[placeholder="MM/AA"]');
 
         expInput.addEventListener('input', function(e) {
-            let value = e.target.value.replace(/\D/g, ''); // Quita lo que no sea número
+            let value = e.target.value.replace(/\D/g, ''); 
          if (value.length > 2) {
             e.target.value = value.substring(0, 2) + '/' + value.substring(2, 4);
             } else {
