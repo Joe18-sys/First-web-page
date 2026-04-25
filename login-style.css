@@ -1,0 +1,84 @@
+ body {
+            background-color: rgb(55, 128, 124);
+            box-shadow: inset 0 0 150px rgba(0, 0, 0, 0.6);
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh; /* Centra todo verticalmente */
+            font-family: 'Outfit', sans-serif;
+        }
+
+       
+        .login-container {
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(10px); /* Efecto cristalino */
+            padding: 40px;
+            border-radius: 20px;
+            box-shadow: 0 15px 35px rgba(0,0,0,0.2);
+            text-align: center;
+            width: 380px;
+        }
+
+        h2 {
+            color: white;
+            margin-bottom: 25px;
+            font-weight: 700;
+        }
+
+        .input1, .input2, .input3 {
+            display: block;
+            margin: 15px auto;
+            padding: 12px 15px;
+            width: 100%; /* Ocupa el ancho del contenedor */
+            max-width: 300px;
+            border-radius: 8px;
+            border: none;
+            outline: none;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+            transition: 0.3s;
+        }
+
+        input:focus {
+            transform: scale(1.03);
+            box-shadow: 0 4px 20px rgba(99, 102, 241, 0.6);
+        }
+
+        .btn-entrar {
+            width: 100%;
+            max-width: 300px;
+            padding: 12px;
+            border: none;
+            border-radius: 8px;
+            background: #fff;
+            font-weight: 700;
+            cursor: pointer;
+            margin-top: 10px;
+            transition: 0.3s;
+        }
+
+        .btn-entrar:hover {
+            background: #2c3e50;
+            color: white;
+        }
+
+        .navbar {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            margin-top: 25px;
+            padding: 0;
+            list-style: none;
+        }
+
+        .navbar a {
+            text-decoration: none;
+            color: rgba(255,255,255,0.8);
+            font-size: 0.9rem;
+            transition: 0.3s;
+        }
+
+        .navbar a:hover {
+            color: white;
+            text-decoration: underline;
+        }

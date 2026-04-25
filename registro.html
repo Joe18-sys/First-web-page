@@ -1,0 +1,47 @@
+<head>
+    <link rel="stylesheet" href="registro-style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<div class="reserva-card">
+    <h2>Reserva tu Destino</h2>
+    <form class="reserva-form" action="Pay-metod.html" method="GET">
+        
+        <div class="input-group">
+            <label>Nombre del Viajero</label>
+            <input type="text" name="nombre" placeholder="Tu nombre..." required>
+        </div>
+
+        <div class="input-group">
+            <label>Destino Soñado</label>
+            <select name="destino">
+                <option value="tokio">Tokio - Japón</option>
+                <option value="suiza">Alpes - Suiza</option>
+                <option value="paris">París - Francia</option>
+                <option value="roma">Roma - Italia</option>
+                <option value="china">Gran Muralla - China</option>
+                <option value="india">Taj Mahal - India</option>
+                <option value="Republica Dominicana">Playa - República Dominicana</option>
+                <option value="Noruega">Oslo - Noruega</option>
+                <option value="Colombia">Bogotá - Colombia</option>
+                <option value="Alemania">Berlín - Alemania</option>
+            </select>
+        </div>
+
+        <div class="input-group">
+            <label>Fecha Estimada</label>
+            <input type="date" name="fecha" required>
+        </div>
+
+        <button type="submit" class="btn-modern">Explorar Disponibilidad y Pagar</button>
+        
+        <div class="button-group">
+            <a href="Detalles.html" class="btn-back">Regresar</a>
+            <a href="index.html" class="btn-back">Volver al inicio</a>
+        </div>
+    </form>
+</div>
+
+<body>
+    <script src="registro-script.js"></script>
+</body>

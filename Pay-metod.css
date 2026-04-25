@@ -1,0 +1,109 @@
+/* RESET DE ESTILOS Y CORRECCIÓN DE DESBORDAMIENTO */
+* {
+    box-sizing: border-box; /* Esto hace que el padding no estire los cuadros */
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #121212; /* Un tono un poco más oscuro para resaltar la tarjeta */
+    color: white;
+    font-family: 'Segoe UI', Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#pago {
+    background: #1e1e1e;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 15px 35px rgba(0,0,0,0.7);
+    width: 100%;
+    max-width: 420px; /* Tamaño ideal para la tarjeta */
+}
+
+.link-back {
+    color: #888;
+    text-decoration: none;
+    font-size: 0.85rem;
+    transition: 0.3s;
+    display: block;
+    margin-bottom: 20px;
+}
+
+.link-back:hover {
+    color: #f39c12;
+}
+
+h2 {
+    text-align: center;
+    color: #f39c12;
+    margin-bottom: 30px;
+    font-size: 1.6rem;
+    letter-spacing: 1px;
+}
+
+.input-group {
+    margin-bottom: 20px;
+}
+
+.input-row {
+    display: flex;
+    gap: 20px; /* Espacio entre Expiración y CVV */
+    margin-bottom: 25px;
+}
+
+.input-group-half {
+    flex: 1; /* Divide el espacio exactamente a la mitad */
+}
+
+label {
+    display: block;
+    font-size: 0.8rem;
+    color: #aaa;
+    margin-bottom: 8px;
+    text-transform: uppercase;
+}
+
+input {
+    width: 100%;
+    padding: 14px;
+    border-radius: 10px;
+    border: 1px solid #333;
+    background: #282828;
+    color: white;
+    font-size: 1rem;
+    transition: all 0.3s ease;
+}
+
+input:focus {
+    border-color: #f39c12;
+    background: #2d2d2d;
+    outline: none;
+    box-shadow: 0 0 8px rgba(243, 156, 18, 0.2);
+}
+
+.btn-pagar {
+    width: 100%;
+    background: #f39c12;
+    color: #121212;
+    padding: 16px;
+    border: none;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 1.1rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.btn-pagar:hover {
+    background: #e67e22;
+    transform: translateY(-3px);
+    box-shadow: 0 5px 15px rgba(230, 126, 34, 0.4);
+}
+
+.btn-pagar:active {
+    transform: translateY(0);
+}
