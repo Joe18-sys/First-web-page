@@ -5,7 +5,7 @@
             display: flex;
             justify-content: center;
             align-items: center;
-            min-height: 100vh; /* min-height para que quepa bien en móviles */
+            min-height: 100vh; 
             font-family: 'Outfit', sans-serif;
         }
 
@@ -39,7 +39,7 @@
             margin: 12px auto;
             padding: 12px 15px;
             width: 100%;
-            box-sizing: border-box; /* Importante para que el padding no ensanche el input */
+            box-sizing: border-box;
             border-radius: 8px;
             border: none;
             outline: none;
