@@ -16,14 +16,14 @@ document.addEventListener('DOMContentLoaded', () => {
             return;
         }
 
-        // GUARDAR DATOS: Creamos un objeto con la información
+       
         const datosUsuario = {
             usuario: user,
             clave: pass,
             nombre: nombre
         };
 
-        // Guardamos en el "disco duro" del navegador convertido a texto (JSON)
+        
         localStorage.setItem('usuarioRegistrado', JSON.stringify(datosUsuario));
 
         alert("¡Cuenta creada! Ahora inicia sesión.");
