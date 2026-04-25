@@ -5,14 +5,14 @@
             display: flex;
             justify-content: center;
             align-items: center;
-            height: 100vh; /* Centra todo verticalmente */
+            height: 100vh; 
             font-family: 'Outfit', sans-serif;
         }
 
        
         .login-container {
             background: rgba(255, 255, 255, 0.1);
-            backdrop-filter: blur(10px); /* Efecto cristalino */
+            backdrop-filter: blur(10px);
             padding: 40px;
             border-radius: 20px;
             box-shadow: 0 15px 35px rgba(0,0,0,0.2);
@@ -30,7 +30,7 @@
             display: block;
             margin: 15px auto;
             padding: 12px 15px;
-            width: 100%; /* Ocupa el ancho del contenedor */
+            width: 100%; 
             max-width: 300px;
             border-radius: 8px;
             border: none;
