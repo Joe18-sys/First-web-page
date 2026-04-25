@@ -23,7 +23,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
         // Simulación de carga
         setTimeout(() => {
-            alert(`¡Todo listo, ${nombre}!\n\nTu solicitud para viajar a ${destino} ha sido enviada.`);
+            alert(`¡Disponibilidad confirmada para ${destino}!\n\nPresiona OK para proceder al pago seguro y finalizar tu reserva.`);
             
             // REDIRECCIÓN AQUÍ (Después del aviso)
             // Asegúrate de que el nombre del archivo sea EXACTAMENTE igual (mayúsculas/minúsculas)
